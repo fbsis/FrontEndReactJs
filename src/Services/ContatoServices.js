@@ -13,7 +13,7 @@ class ContatoServices {
 
   async Post(id, data) {
     try {
-      return await axios.Post(`${apiConfig.url}/${id}`, data);
+      return await axios.post(`${apiConfig.url()}`, data);
     } catch (error) {
       return error;
     }
@@ -21,7 +21,7 @@ class ContatoServices {
 
   async Put(id, data) {
     try {
-      return await axios.put(`${apiConfig.url}/${id}`, data);
+      return await axios.put(`${apiConfig.url()}/${id}`, data);
     } catch (error) {
       return error;
     }
@@ -29,7 +29,7 @@ class ContatoServices {
 
   async Delete(id) {
     try {
-      return await axios.Delete(`${apiConfig.url}/${id}`);
+      return await axios.delete(`${apiConfig.url()}/${id}`);
     } catch (error) {
       return error;
     }
