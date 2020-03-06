@@ -11,5 +11,5 @@ I Simple front-end service to read backend Rest to show some contact information
 Make it more util
 
 # How to see in action (on dev)
-yarn dev
-it will open a browser
+- execute 'yarn' to install all of dependency
+- 'yarn dev' to start the project on dev enverioment, and it will open a browser
