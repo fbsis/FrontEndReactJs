@@ -4,6 +4,7 @@ I Simple front-end service to read backend Rest to show some contact information
 # What is used?
 - ReactJs
 - Axios
+- Material-UI as framework oriented to design
 - Service oriented
 
 # What next?
